@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="guessthecolorstyle.css">
+</head>
+<body>
+    <header>
+        <h1 class="header-heading">GUESS THE COLOR</h1>
+        <h2 class="header-subheading">RGB CHALLENGE</h2>
+        <hr><hr>
+        <h1 id="rgb-color">RGB(0, 0, 0)</h1>
+    </header>
+    <main>
+        <button id="startgamebutton" onclick="startGame()">Start Game</button>
+        
+    </main>
+    <footer>
+        <div class="footer-div">
+            <p>Score: <span id="user-score">0</span></p>
+            <p>Chances Left: <span id="user-chances">0</span></p>
+            <p>High Score: <span id="user-high-score">0</span></p>            
+        </div>
+        <p class="footer-emoji">&#x1F9D0;</p>
+        <div id="options"></div>
+    </footer>
+    <script src="guessthecolor.js"></script>
+</body>
+</html>

@@ -1,0 +1,94 @@
+header {
+    height: 30vh;
+    background-color: gray;
+    text-align: center;
+    padding: 20px; 
+}
+
+.header-heading {
+    color: white; 
+    padding-top: 0;
+    margin-top: 0; 
+}
+
+.header-subheading {
+    color: white; 
+}
+
+#rgb {
+    color: yellow;
+    font-family: fantasy;
+}
+
+main {
+    height: 10vh;
+    background-color: white;
+    text-align: center;
+    display: grid;
+    place-items: center;
+}
+
+#startgamebutton {
+    color: white;
+    background-color: purple;
+    width: 130px; 
+    padding: 5px 10px;
+    font-size: 16px; 
+}
+
+footer {
+    height: 60vh;
+    background-color: blueviolet; 
+    padding: 10px; 
+}
+
+.footer-div {
+    display: flex; 
+    justify-content: space-between;
+    color: lightblue;
+    font-weight: bold;   
+}
+
+#user-score {
+    color: black; 
+}
+
+#user-chances {
+    color: red; 
+}
+ 
+#user-high-score {
+    color: pink; 
+}
+
+.footer-emoji {
+    text-align: center; 
+    padding-top: 0; 
+    margin-top: 0; 
+    font-size: 30px; 
+}
+
+#options{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: space-between;
+    flex-wrap: wrap;
+    padding: 50px;
+    max-width: 300px;
+    height: 200px;
+    margin: auto;
+    font-family : cursive;
+}
+
+.option{
+    width: 80px;
+    height: 80px;
+    border-radius : 10px;
+    transition : 0.2s transform;
+}
+
+.option:hover{
+    transform: scale(1.1);
+}
+  
